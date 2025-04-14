@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "*.html",
+        "src": "resume-2/*.html",
         "use": "@vercel/static"
       }
     ],
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "resume-2/index.html"
+        "destination": "/resume-2/index.html"
       }
     ]
   }
